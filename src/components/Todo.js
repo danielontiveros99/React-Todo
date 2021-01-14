@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Item = (props) => {
+    console.log(props)
     const handleClick = () => {
         props.onComplete(props.item.id)
     };

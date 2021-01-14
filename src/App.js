@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './components/TodoForm';
-import List from './components/Todo';
+import List from './components/TodoList';
 
 const todoList = [
   {
@@ -18,7 +18,7 @@ class App extends React.Component {
     this.state = {
       todoList: todoList,
     };
-    this.onComplete = this.onComplete.bind(this);
+    // this.onComplete = this.onComplete.bind(this);
   }
 
   newTask = {

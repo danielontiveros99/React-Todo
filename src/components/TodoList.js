@@ -5,7 +5,8 @@ import React from 'react';
 import Item from './Todo';
 
 const List = (props) => {
-    
+    console.log(props)
+    return(
     <div className ='list'>
         {props.state.map((item) => {
             return(
@@ -16,7 +17,7 @@ const List = (props) => {
                 />
             )
         })}
-    </div>;
-};
+    </div>
+    )};
 
 export default List;
